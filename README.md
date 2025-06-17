@@ -1,7 +1,7 @@
 # 📘 Intro to Machine Learning and NLP
 
 ### 🧠 Course Project – Introduction to Machine Learning and Natural Language Processing  
-**Student**: Kumar Sarthak
+**Student**: Kumar Sarthak       
 **Program**: *Mtech BME*  
 
 ---
@@ -51,6 +51,4 @@ This repository contains hands-on projects for learning core concepts in **Machi
 - **Functionality**: Real-time prediction from user input
 
 ---
-
-## 🔍 Sample Output
 
