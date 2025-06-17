@@ -1,53 +1,56 @@
-# Intro-to-ML-NLP
-README – Intro to Machine Learning and NLP Project
+# 📘 Intro to Machine Learning and NLP
 
-Course: Introduction to Machine Learning and Natural Language Processing
-Student: Kumar Sarthak
-IITB BME
+### 🧠 Course Project – Introduction to Machine Learning and Natural Language Processing  
+**Student**: *[Your Name]*  
+**Semester**: *[Spring 2025]*  
 
-Overview
-This project introduces core ML and NLP techniques using Python. It includes:
+---
 
-Text vectorization: CountVectorizer & TF-IDF
+## 🧠 Overview
 
-Sentiment classification (positive vs. negative/good vs. bad)
+This repository contains hands-on projects for learning core concepts in **Machine Learning (ML)** and **Natural Language Processing (NLP)**. It includes:
 
-Use of Naive Bayes and Logistic Regression models
+- 🔤 Text vectorization using **CountVectorizer** and **TF-IDF**
+- 💬 Sentiment classification on synthetic:
+  - 🎬 Movie reviews
+  - 📦 Product reviews
+- 🧠 Machine learning models:
+  - **Multinomial Naive Bayes**
+  - **Logistic Regression**
+- 📊 Evaluation using accuracy, precision, recall, F1-score
 
-Evaluation using accuracy, precision, recall, and F1-score
+---
 
-Files
+## 📁 Files
 
-problem4_movie_sentiment.py: Movie review classifier using CountVectorizer and Naive Bayes
+| File | Description |
+|------|-------------|
+| `problem4_movie_sentiment.py` | Movie review sentiment classification using CountVectorizer + Naive Bayes |
+| `problem5_product_sentiment.py` | Product review sentiment classification using TF-IDF + Logistic Regression |
+| `dataset_generator.py` | Generates synthetic movie/product reviews |
+| `README.md` | Project documentation |
+| `requirements.txt` | Python packages required to run the code |
 
-problem5_product_sentiment.py: Product review classifier using TF-IDF and Logistic Regression
+---
 
-dataset_generator.py: Helper code to generate synthetic reviews
+## 📽️ Problem 4: Movie Review Classification
 
-README.md: Project overview
+- **Dataset**: 100 synthetic reviews (50 positive, 50 negative)
+- **Vectorizer**: CountVectorizer (max 500 features, English stop words removed)
+- **Model**: Multinomial Naive Bayes
+- **Output**: Accuracy on test set, review prediction function
 
-requirements.txt (optional): Required Python libraries
+---
 
-Problem 4 – Movie Review Classification
+## 📦 Problem 5: Product Review Classification
 
-Dataset: 100 synthetic reviews (50 positive, 50 negative)
+- **Dataset**: 100 synthetic product reviews (50 good, 50 bad)
+- **Vectorizer**: TF-IDF (max 300 features)
+- **Model**: Logistic Regression
+- **Evaluation**: Accuracy, precision, recall, F1-score
+- **Functionality**: Real-time prediction from user input
 
-Preprocessing: CountVectorizer with max 500 features, stop word removal
+---
 
-Model: Multinomial Naive Bayes
+## 🔍 Sample Output
 
-Evaluation: 80/20 train/test split with accuracy
-
-Includes: Prediction function for custom input
-
-Problem 5 – Product Review Classification
-
-Dataset: 100 synthetic product reviews (50 good, 50 bad)
-
-Preprocessing: TF-IDF with max 300 features
-
-Model: Logistic Regression
-
-Evaluation: Accuracy, precision, recall, F1-score
-
-Includes: Vectorization + prediction function
