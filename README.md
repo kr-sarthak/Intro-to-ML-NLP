@@ -1,8 +1,8 @@
 # 📘 Intro to Machine Learning and NLP
 
 ### 🧠 Course Project – Introduction to Machine Learning and Natural Language Processing  
-**Student**: *[Your Name]*  
-**Semester**: *[Spring 2025]*  
+**Student**: Kumar Sarthak
+**Program**: *Mtech BME*  
 
 ---
 
