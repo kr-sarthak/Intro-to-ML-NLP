@@ -3,19 +3,20 @@ This project fine-tunes a pre-trained GPT-2 model on the WikiText-2 dataset to b
 # Project Summary
 -	Model: “GPT-2” from Hugging Face Transformers
 -	Dataset: 'WikiText-2'
--	Training Epochs: 3
--	Final Loss: 2.61
--	Training Time: ~285 minutes (on laptop CPU)
+-	Training Epochs: 7
+-	Final Loss: 0.88
+-	Training Time: ~1460 minutes (on A6000)
 -	Inference Enabled: yes
-> Due to hardware constraints, training was limited to 3 epochs. Full training over 25–30 epochs is expected to improve performance significantly.
+> Due to hardware constraints, training was limited to 7 epochs. Full training over 25–30 epochs is expected to improve performance significantly.
 
 # Results
 Epoch	Training Loss
- 1	       3.05
- 2	       2.80
- 3	       2.61
- 10	      ~1.8 (expected)
- 20	      ~1.4 (expected)
+ 1	       1.8
+ 2	       1.5
+ 3	       1.3
+ 7.       0.88
+ 10	      ~.9
+ 20	      ~0.8
 
 
 ## 🔁 Inference Demo
